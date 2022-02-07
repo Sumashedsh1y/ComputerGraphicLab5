@@ -149,6 +149,7 @@ int main()
 	glLoadIdentity();
 	glViewport(0, 0, 720, 720);
 	glShadeModel(GL_FLAT);
+	glEnable(GL_DEPTH_TEST);
 	glEnableClientState(GL_VERTEX_ARRAY);
 	glEnableClientState(GL_COLOR_ARRAY);
 	glEnable(GL_CULL_FACE);
